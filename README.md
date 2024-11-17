@@ -3,7 +3,7 @@
 ## Author: Katrina Hill
 
 ### Description:
-This project is a React application demonstrating the use of reusable components to trigger browser alerts. The main component, Toolbar, contains multiple AlertButton instances, each configured with its own message and label. The application includes the following main files:
+This project is a React application demonstrating the use of reusable components to trigger browser alerts. The main component, `Toolbar`, contains multiple `AlertButton` instances, each configured with its own message and label. The application includes the following main files:
 
 - `AlertButton.js`: This is a reusable component that displays a button. When clicked, it shows an alert with a custom message passed as a prop.
 - `Toolbar.js`: This component renders a set of `AlertButton` components based on an array of configuration objects. It maps over the array and creates an `AlertButton` for each item.
